@@ -7,6 +7,7 @@
     background-color: black;
     border: 5px solid black;
     place-content: center ;
+    margin: auto;
     
 }
     
@@ -50,6 +51,21 @@ p{
     text-decoration: underline;
 }
 
+img{
+    display: block;
+    margin: auto;
+}
+#palette{
+    display: block;
+    place-content: center;
+    margin: auto;
+}
+
+#header{
+    
+    width: 75%;
+    margin: auto;
+}
 
 
 
@@ -58,19 +74,20 @@ p{
 </style>
 <html>
 
-
+<div id="header">
 <head>
 <title>PixelArt RSMA</title>
 </head>
-<img src="https://www.saintlaurentdumaroni.fr/photo/art/default/1944384-2673746.jpg?v=1289498125" width=100px>
+<img src="../../rsma06/PixelArt/assests/FCzje_9XoAUFcTD-removebg-preview.png" width="25%" height="75%">
 <h1>PixelArt RMSA </h1> 
 <p> Dévloppé par la promo ultime des Dev-Web </p>
-
+</div>
 
 <body>
 
-
+    <a href="https://coolors.co/8da7be-554640-cde6f5-87919e-707078" target="_blank">Palette de couleurs</a>
 <div id="palette" >
+    
     <div class="crayon" onclick="rase()"><img src="https://static.vecteezy.com/ti/gratis-vektor/p1/1889430-poof-expression-pop-art-flat-style-gratis-vector.jpg"width=50px></div>
     <div class="crayon" onclick="newcolor()"><img src="https://rbca-systems.com/wp-content/uploads/2020/11/14785234210846_roue-chromatique.png"width=50px></div>
 	<div class="crayon" style="background-color:white;" onclick="setcouleurcrayon('white')"></div>
