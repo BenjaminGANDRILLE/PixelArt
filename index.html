@@ -62,11 +62,24 @@ img{
 }
 
 #header{
-    
+    background-color:#8DA7BE;
     width: 75%;
     margin: auto;
 }
 
+.palette{
+    display: block;
+    margin: auto;
+    background-color:#8DA7BE;
+    width: 20%;
+}
+
+#backtab{
+    background-color:#8DA7BE;
+    width: 75%;
+    display: block;
+    margin: auto;
+}
 
 
 
@@ -84,7 +97,7 @@ img{
 </div>
 
 <body>
-
+<div class="palette">
     <a href="https://coolors.co/8da7be-554640-cde6f5-87919e-707078" target="_blank">Palette de couleurs</a>
 <div id="palette" >
     
@@ -100,10 +113,11 @@ img{
 
 <p></p>
  <button onclick="agrandir()">Agrandir la grille</button>
+</div>
  <p id='x'>3x3</p>
 <p></p>
 
-
+<div id="backtab">
 	<div id="art" class="art">
    	 <div class="row">
        <div class="pixel" onclick="coloriage(this)"></div>
@@ -121,6 +135,7 @@ img{
  <div class="pixel" onclick="coloriage(this)"></div>
 </div>
     
+    </div>
     </div>
 
 
